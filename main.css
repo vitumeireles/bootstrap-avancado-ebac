@@ -36,10 +36,19 @@ body {
     max-height: 760px; 
     overflow: hidden; 
 }
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    width: 100%;
+    height: auto;
+}
 
 .carousel-item img { 
     width: 100%; 
-    margin: 0 auto;
+    
 }
 
 .section-title{
@@ -94,8 +103,3 @@ form, textarea {
     color: #000;
 }
 
-@media (max-width:767px) {
-    .carousel-item img{
-        height: 280px;
-    }    
-}
