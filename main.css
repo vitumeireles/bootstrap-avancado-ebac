@@ -103,3 +103,26 @@ form, textarea {
     color: #000;
 }
 
+/* Responsividade para dispositivos móveis */
+@media (max-width: 767px) {
+    #destaque .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Responsividade para tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    #destaque .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsividade para desktops */
+@media (min-width: 992px) {
+    #destaque .col-md-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
